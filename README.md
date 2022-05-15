@@ -21,6 +21,8 @@ Ein Projekt der Hochschule Pforzheim.
   - 12 V
   - 350 mA
 
+- Zahnriemen und Zahnräder: https://www.amazon.de/dp/B07QH94G71?ref_=cm_sw_r_cp_ud_dp_NBP2886NY2H1YNJAXYJZ
+
 - Gewichte: https://www.amazon.de/dp/B08F2H4TB8?ref_=cm_sw_r_cp_ud_dp_EE6H5DKYBR2R5X1NX4WT 
   - 100 g + 2 x 60 g
 
@@ -31,7 +33,7 @@ Ein Projekt der Hochschule Pforzheim.
 
 ### 3D-Druck Teile
 
-Dateien in /stl.
+Dateien aus /stl auf dem 3D Drucker herstellen.
 
 
 
