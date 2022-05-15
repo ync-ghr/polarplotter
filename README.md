@@ -33,7 +33,7 @@ Ein Projekt der Hochschule Pforzheim.
 
 Dateien in /stl.
 
-
+![image](https://user-images.githubusercontent.com/58829180/168470991-aa8e7993-4bd5-4211-93ab-83f221624614.png)
 
 ## Polygraph Software
 
