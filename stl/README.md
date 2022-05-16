@@ -12,7 +12,7 @@
 
 ## Deckel
 
-<script src="https://embed.github.com/view/3d/ync-ghr/polarplotter/stl/1x_Deckel.stl"></script>
+<script src="https://embed.github.com/view/3d/skalnik/secret-bear-clip/master/stl/clip.stl"></script>
 
 ## Gehäuse
 
