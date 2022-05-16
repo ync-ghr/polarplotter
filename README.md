@@ -1,6 +1,8 @@
 # Polar Plotter
 Ein Projekt der Hochschule Pforzheim.
 
+
+
 - Bauteile und deren Funktion/Herstellung
 - Handhabung des Plotters
 
@@ -48,14 +50,14 @@ Dateien aus `/stl` auf dem 3D Drucker herstellen.
 
 - Herunterladen des Polargraphcontollers: https://github.com/euphy/polargraphcontroller/releases/tag/2017-11-01-20-30
 
-- Dieses Verzeichnis (polargraph.2017-11-01.zip)entpacken und öffnen. Darin ist ein Ordner `\arduino-source\polargraph-server-a1` enhalten. Diesen in den Arduino Ordner verschieben (`C:\Users\"PCNAME"\Documents\Arduino`). ![image](https://user-images.githubusercontent.com/58829180/168472281-1d77a318-3a13-466e-a567-8d2137aa97d8.png)
+- Dieses Verzeichnis (polargraph.2017-11-01.zip) entpacken und öffnen. Darin ist ein Ordner `\arduino-source\polargraph-server-a1` enhalten. Diesen in den Arduino Ordner verschieben (`C:\Users\"PCNAME"\Documents\Arduino`).
 
 - Den Inhalt des Ordners `\arduino-source\libraries` in den Ordner `C:\Users\"PCNAME"\Documents\Arduino\libraries` verschieben. 
 ![image](https://user-images.githubusercontent.com/58829180/168472653-08670873-b451-4253-8424-7977ee3ee37a.png)
 
 - Anschließend Arduino IDE starten.
 
-- `File -> Sketchbook -> polargraph_server_a1` auswählen und im Tab polargraph_server_a1 unter 1. den Controller auf MC_UNO einstellen. Unter 3. die verwendeten Motortreiber auswählen. ![image](https://user-images.githubusercontent.com/58829180/168472719-464ff1c7-55a8-4c44-84b5-1600686a130c.png) 
+- `File -> Sketchbook -> polargraph_server_a1` auswählen und im Tab polargraph_server_a1 unter 1. den Controller auf MC_UNO einstellen. Unter 3. die verwendeten Motortreiber auswählen.
 
   ```
   // 1. 
@@ -87,7 +89,7 @@ Dateien aus `/stl` auf dem 3D Drucker herstellen.
 
 - Anschließend den gesamten Ordner `Polargraph 2017-11-01\processing-source\polargraphcontroller` in den Processing Sketchbook Ordner (`C:\Users\"PCNAME"\Documents\Processing`) kopieren.
 
-- Processing erneut starten und `File -> Sketchbook -> polargraphcontroller` öffnen. ![image](https://user-images.githubusercontent.com/58829180/168473686-794536f1-a014-4cf2-ae10-0fb310a638d6.png)
+- Processing erneut starten und `File -> Sketchbook -> polargraphcontroller` öffnen.
 
 - Run drücken um den Controller zu starten.
 
@@ -130,9 +132,9 @@ Einstellungen für die Abmessungen des Zeichenbretts und des Zeichenblatts sowie
 | Feldname | Wert | Bedeutung |
 |---|----:|----------------|
 | MM PER REV        | 64 | Drehung des Riemens pro Schritt |
-| STEPS PER REV     | 400 | Schritte pro Umdrehung |
-| STEP MULTIPLIER   | 16 | Skalierung der Schritte |
-| MASCHINE WIDTH    | - | Breite des Zeichenbretts (Distanz zwischen beiden Motoren)               |
+| STEPS PER REV     | 1090 | Schritte pro Umdrehung (alt. 400) |
+| STEP MULTIPLIER   | 6 | Skalierung der Schritte (alt. 16)|
+| MASCHINE WIDTH    | - | Breite des Zeichenbretts (Distanz zwischen Innenseite der Zahnräder)               |
 | MASCHINE HIGHT    | - | Höhe des Zeichenbretts |
 | PAGE WIDTH        | - | Breite des Zeichenblatts |
 | PAGE HIGHT        | - | Höhe des Zeichenblatts |
@@ -142,12 +144,12 @@ Einstellungen für die Abmessungen des Zeichenbretts und des Zeichenblatts sowie
 | HOME POS Y        | - | Y-Postition des Homepunkts |
 | PEN UP POSTION    | - | Winkel des Servos für angehobeben Stift |
 | PEN DOWN POSITION | - | Winkel des Servos für abgesetzten Stift |
-| MOTOR MAX SPEED | 600 | Maximalgeschwindigkeit des Motors |
+| MOTOR MAX SPEED | 1000 | Maximalgeschwindigkeit des Motors |
 | MOTOR MAX ACCELERATION | 400 | Maximalbeschleunigung des Motors |
 
 - Außerdem muss der `SERIAL PORT...` eingesetellt werden. Ist die Verbindung erfolgreich erscheint in grün `Polargraph READY! (Uno)`
 
-![image](https://user-images.githubusercontent.com/58829180/168475457-5be9ecf9-80a4-4091-a58f-1444e811f564.png)
+![image](https://user-images.githubusercontent.com/58829180/168608580-2f47b184-98dc-4942-b489-eff853cd5f46.png)
 
 
 ### INPUT
@@ -158,9 +160,13 @@ Einstellungen die das Zeichenobjekt betreffen. Über Tab INPUT.
 
 - Durch Klicken auf den Button `LOAD IMAGE FILE` kann eine Bilddatei ausgewählt und auf dem Brett positioniert werden. Über `RESIZE IMAGE` und `MOVE IMAGE` kann die Größe und Postition noch verändert werden.
 
+- Es kann das ein Bild Shattiert gezeichnet werden, dafür `INPUT -> RENDER PIXELS`. Alternativ kann die Kontur eines Vektors oder Bilds gezeichnet werden, dafür `TRACE -> CAPUTER`, anschließend `DRAW CAPTURE` um den Code zu generieren.
+
 - Durch klicken auf `QUEUE PAUSED` wird der gesendete Code ausgeführt.
 
-![image](https://user-images.githubusercontent.com/58829180/168476232-b45c74d7-8c10-472a-9b71-563c5e8b700b.png)
+![image](https://user-images.githubusercontent.com/58829180/168608426-a97e648c-b535-4cce-a61b-de0415ff80a7.png)
+
+![image](https://user-images.githubusercontent.com/58829180/168610424-4e05260a-833f-490b-8924-52ea2e9e0b75.png)
 
 
 
