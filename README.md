@@ -6,9 +6,6 @@ Ein Projekt der Hochschule Pforzheim.
 [Aufbau des Plotters](#aufbau-des-plotters)<br>
 [Einstellungen in der Software](#einstellungen-in-der-software)<br>
 
-- Bauteile und deren Funktion/Herstellung
-- Handhabung des Plotters
-
 ## Benötigte Komponenten
 
 ![image](https://user-images.githubusercontent.com/58829180/168477973-95d0accc-3933-4d4f-9964-99fa80b72a3a.jpg)
