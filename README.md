@@ -56,7 +56,7 @@ Dateien aus `/stl` auf dem 3D-Drucker herstellen. Die Komponenten und deren Funk
 
 - Herunterladen des Polargraphcontollers: https://github.com/euphy/polargraphcontroller/releases/tag/2017-11-01-20-30
 
-- Dieses Verzeichnis (polargraph.2017-11-01.zip) entpacken und öffnen. Darin ist ein Ordner `\arduino-source\polargraph-server-a1` enhalten. Diesen in den Arduino Ordner verschieben (`C:\Users\"PCNAME"\Documents\Arduino`).
+- Dieses Verzeichnis (polargraph.2017-11-01.zip) entpacken und öffnen. Darin ist ein Ordner `\arduino-source\polargraph-server-a1` enthalten. Diesen in den Arduino Ordner verschieben (`C:\Users\"PCNAME"\Documents\Arduino`).
 
 - Den Inhalt des Ordners `\arduino-source\libraries` in den Ordner `C:\Users\"PCNAME"\Documents\Arduino\libraries` verschieben. 
 ![image](https://user-images.githubusercontent.com/58829180/168472653-08670873-b451-4253-8424-7977ee3ee37a.png)
@@ -107,18 +107,18 @@ Dateien aus `/stl` auf dem 3D-Drucker herstellen. Die Komponenten und deren Funk
 - Festschrauben der Motoren an der Halterung, Befestigung am Zeichenbrett und Anbringung der Zahnräder.
 ![20220516_133949](https://user-images.githubusercontent.com/58829180/168584952-07df5d0b-eab8-429c-a801-57df12c25073.jpg)
 
-- Anbringung des Motorshields auf dem Arduino und Vorbereiten der 12 V Stromversorgung.
+- Anbringen des Motorshields auf dem Arduino und vorbereiten der 12 V Stromversorgung.
 ![20220516_111948](https://user-images.githubusercontent.com/58829180/168561048-7b88ac8f-c3d1-4d6f-aeaf-cb69f87a328b.jpg)
 
-- Einlegen der Gewichte in die Gewichthalterungen und Befestigung des Gummiriemens durch verkanten der Zähne. Riemen soll einmal gespiegelt angebracht werden (siehe Bild).
+- Einlegen der Gewichte in die Halterungen und Befestigung des Gummiriemens durch Verkanten der Zähne. Riemen soll einmal gespiegelt angebracht werden (siehe Bild).
 ![20220516_115116](https://user-images.githubusercontent.com/58829180/168585308-1fa78251-2e79-4927-bcbc-f364e5400874.jpg)
 
-- Anbringen des Servomotors und der Gewichthalterung an der Gondel. Befestigung des Gummiriemens durch verkanten. Verlängerungskabel für den Servomotor verbinden. Einschmelzen des Gewindes in die Bohrung.
+- Anbringen des Servomotors und der Gewichthalterung an der Gondel. Befestigung des Gummiriemens durch Verkanten. Verlängerungskabel für den Servomotor verbinden. Einschmelzen des Gewindes in die Bohrung.
 ![Bild6](https://user-images.githubusercontent.com/58829180/168586453-83efd087-901b-49cb-b8b0-ed5485673121.jpg)
 
 
 
-- Aufsetzen der Konstruktion über die Zahnräder und Kabel auf der Rückseite führen.
+- Aufsetzen der Konstruktion über die Zahnräder und Kabel auf die Rückseite führen.
 ![20220516_135158](https://user-images.githubusercontent.com/58829180/168586784-39b353d6-2930-4fba-8ed8-d5f71846f19d.jpg)
 
 
@@ -160,7 +160,7 @@ Einstellungen für die Abmessungen des Zeichenbretts und des Zeichenblatts sowie
 
 ### INPUT
 
-Einstellungen die das Zeichenobjekt betreffen. Über Tab INPUT.
+Einstellungen, die das Zeichenobjekt betreffen. Über Tab INPUT.
 
 - Zuerst muss die Gondel manuell so eingehängt werden, dass sich der Stift direkt über dem Homepunkt befindet. Anschließend kann über den Button `SET HOME` dieser Punkt abgespeichert werden.
 
