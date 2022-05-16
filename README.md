@@ -36,7 +36,7 @@ Ein Projekt der Hochschule Pforzheim.
 
 ### 3D-Druck Teile
 
-Dateien aus /stl auf dem 3D Drucker herstellen.
+Dateien aus `/stl` auf dem 3D Drucker herstellen.
 
 ![image](https://user-images.githubusercontent.com/58829180/168470991-aa8e7993-4bd5-4211-93ab-83f221624614.png) 
 
@@ -50,7 +50,8 @@ Dateien aus /stl auf dem 3D Drucker herstellen.
 
 - Dieses Verzeichnis (polargraph.2017-11-01.zip)entpacken und öffnen. Darin ist ein Ordner `\arduino-source\polargraph-server-a1` enhalten. Diesen in den Arduino Ordner verschieben (`C:\Users\"PCNAME"\Documents\Arduino`). ![image](https://user-images.githubusercontent.com/58829180/168472281-1d77a318-3a13-466e-a567-8d2137aa97d8.png)
 
-- Den Inhalt des Ordners `\arduino-source\libraries` in den Ordner `C:\Users\"PCNAME"\Documents\Arduino\libraries` verschieben. <img src="https://user-images.githubusercontent.com/58829180/168472653-08670873-b451-4253-8424-7977ee3ee37a.png" height="200"/>
+- Den Inhalt des Ordners `\arduino-source\libraries` in den Ordner `C:\Users\"PCNAME"\Documents\Arduino\libraries` verschieben. 
+![image](https://user-images.githubusercontent.com/58829180/168472653-08670873-b451-4253-8424-7977ee3ee37a.png)
 
 - Anschließend Arduino IDE starten.
 
@@ -96,33 +97,35 @@ Dateien aus /stl auf dem 3D Drucker herstellen.
 ![image](https://user-images.githubusercontent.com/58829180/168479281-f0360503-3d68-4132-b768-b2df2f2ae6e7.png)
  
 - Festschrauben der Motoren an der Halterung und Befestigung am Zeichenbrett und Anbringung der Zahnräder.
-![20220516_110719](https://user-images.githubusercontent.com/58829180/168559960-e3f53283-147d-4a8c-b2c6-c62ea221a4bd.jpg)
+![20220516_133949](https://user-images.githubusercontent.com/58829180/168584952-07df5d0b-eab8-429c-a801-57df12c25073.jpg)
 
 - Anbringung des Motorshields auf dem Arduino und Vorbereiten der 12 V Stromversorgung.
 ![20220516_111948](https://user-images.githubusercontent.com/58829180/168561048-7b88ac8f-c3d1-4d6f-aeaf-cb69f87a328b.jpg)
 
 - Einlegen der Gewichte in die Gewichthalterungen und Befestigung des Gummiriemens durch verkanten der Zähne. Riemen soll einmal gespielgelt angebracht werden (siehe Bild).
-![image](https://user-images.githubusercontent.com/58829180/168568506-5a603d1d-076f-4bfc-96d7-2ebf2eedf45e.png)
+![20220516_115116](https://user-images.githubusercontent.com/58829180/168585308-1fa78251-2e79-4927-bcbc-f364e5400874.jpg)
 
 - Anbringen des Servomotors und der Gewichthalterung an der Gondel. Befestigung des Gummiriemens durch verkanten. Verlängerungskabel für den Servomotor verbinden. Einschmelzen des Gewindes in die Bohrung.
-![20220516_121023](https://user-images.githubusercontent.com/58829180/168570563-8d301d7e-7dcd-4682-bf0e-0740712784b9.jpg) ![20220516_131647](https://user-images.githubusercontent.com/58829180/168581409-2ad9771a-cbc7-4bed-8488-3364a2c2bc27.jpg)
+![Bild6](https://user-images.githubusercontent.com/58829180/168586453-83efd087-901b-49cb-b8b0-ed5485673121.jpg)
 
 
 
 - Aufsetzen der Konstruktion über die Zahnräder und Kabel auf der Rückseite führen.
-![20220516_122937](https://user-images.githubusercontent.com/58829180/168573883-09961e05-999e-4f74-878e-248b0c09f473.jpg)
+![20220516_135158](https://user-images.githubusercontent.com/58829180/168586784-39b353d6-2930-4fba-8ed8-d5f71846f19d.jpg)
 
 
 - Verkabelung der beiden Schrittmotoren an die Klemmen (Blau/Grün ein Coil, Gelb/Rot ein Coil) und aufstecken des Servosteckers an die Servo 2 Pins. Herstellen der 12 V Stromversorgung und der USB-Verbindung mit einem Windows-PC.
 ![image](https://user-images.githubusercontent.com/58829180/168578243-2e42a344-23a8-4350-8ab4-d5836b6ee91a.png)
 
+- Anbringung eines Zeichenblattes auf dem Zeichenbrett.
 
+- Zum Schluss kann der Arduino in das gedruckte Gehäuse gesetzt und verschraubt werden.
 
 ## Einstellungen in der Software
 
 ### SETUP
 
-Einstellungen für die Abmessungen des Zeichenbretts und des Zeichenblatts sowie weitere grundsätzliche Einstellungen.
+Einstellungen für die Abmessungen des Zeichenbretts und des Zeichenblatts sowie weitere grundsätzliche Einstellungen. Im Tab SETUP.
 
 | Feldname | Wert | Bedeutung |
 |---|----:|----------------|
@@ -142,14 +145,20 @@ Einstellungen für die Abmessungen des Zeichenbretts und des Zeichenblatts sowie
 | MOTOR MAX SPEED | 600 | Maximalgeschwindigkeit des Motors |
 | MOTOR MAX ACCELERATION | 400 | Maximalbeschleunigung des Motors |
 
-- Außerdem muss der SERIAL PORT... eingesetellt werden.
+- Außerdem muss der `SERIAL PORT...` eingesetellt werden. Ist die Verbindung erfolgreich erscheint in grün `Polargraph READY! (Uno)`
 
 ![image](https://user-images.githubusercontent.com/58829180/168475457-5be9ecf9-80a4-4091-a58f-1444e811f564.png)
 
 
 ### INPUT
 
-Einstellungen die das Zeichenobjekt betreffen.
+Einstellungen die das Zeichenobjekt betreffen. Über Tab INPUT.
+
+- Zuerst muss die Gondel manuell so eingehängt werden, dass sich der Stift direkt über dem Homepunkt befindet. Anschließend kann über den Button `SET HOME` dieser Punkt abgespeichert werden.
+
+- Durch Klicken auf den Button `LOAD IMAGE FILE` kann eine Bilddatei ausgewählt und auf dem Brett positioniert werden. Über `RESIZE IMAGE` und `MOVE IMAGE` kann die Größe und Postition noch verändert werden.
+
+- Durch klicken auf `QUEUE PAUSED` wird der gesendete Code ausgeführt.
 
 ![image](https://user-images.githubusercontent.com/58829180/168476232-b45c74d7-8c10-472a-9b71-563c5e8b700b.png)
 
