@@ -21,8 +21,8 @@
 ## [Gehäuse](https://github.com/ync-ghr/polarplotter/blob/main/stl/1x_Geh%C3%A4use.stl)
 
 - Das Gehäuse bietet die Möglichkeit den Arduino darin fest zu verschrauben. Durch 3 M2x5 Schrauben kann durch die Bohrungen im Arduino eine Verbindung hergesetellt werden.
-- In die Bohrung kann die Klinkenbuckse des Netzteils gesetzt und durch anziehen des Rings befestigt werden.
-- Durch das Einsezten von Ruthex Gewinden wird das Verschrauben des Deckels ermöglicht.
+- In die Bohrung kann die Klinkenbuckse des Netzteils gesetzt und durch Anziehen des Rings befestigt werden.
+- Durch das Einsetzen von Ruthex Gewinden wird das Verschrauben des Deckels ermöglicht.
 - Es gibt eine Aussparung für den USB-Port des Arduinos.
 - Die Stecker der Motoren können optional mithilfe der Verbinder (siehe Bild) mit dem Gehäuse verschraubt werden. 
 ![image](https://user-images.githubusercontent.com/58829180/168617906-3ef32831-03f2-4215-9987-9bff20a08ea0.png)
@@ -30,14 +30,14 @@
 
 ## [Gewichthalterung](https://github.com/ync-ghr/polarplotter/blob/main/stl/1x_Gewichthalterung.stl)
 
-- Die Gewichthalterung bietet die Möglichkeit Gewichte einzulegen und kann direkt mit der Gonderl durch Formschluss verbunden werden. Darüber hinaus kann durch 2 M2 Schrauben abgesichert werden.
+- Die Gewichthalterung bietet die Möglichkeit, Gewichte einzulegen und kann direkt mit der Gondel durch Formschluss verbunden werden. Darüber hinaus kann durch 2 M2 Schrauben abgesichert werden.
 
 
 ## [Gondel](https://github.com/ync-ghr/polarplotter/blob/main/stl/1x_Gondel.stl)
 
 - Die Gondel hat einen Platz um den Servomotor zu befestigen. Dieser kann außerdem verschraubt werden.
 - Der Zylinder in der Mitte ist dazu gedacht einen Stift hineinzustecken und durch eine Schraube zu fixieren.
-- Die Riemen müssen um den kleinen Zylinder gelegt werden und werden durch verkanten der Zähne und fixieren in der Spalte befestigt (siehe Bild).
+- Die Riemen müssen um den kleinen Zylinder gelegt werden und werden durch Verkanten der Zähne und Fixieren in der Spalte befestigt (siehe Bild).
 ![20220516_165418](https://user-images.githubusercontent.com/58829180/168621887-7a7ef089-f347-4402-8e4d-bb12416912ba.jpg)
 - Durch die Aussparung kann der Servo die Gondel von der Zeichenfläche wegdrücken und damit den Stift anheben.
 
@@ -69,4 +69,4 @@
 ## [Schraube](https://github.com/ync-ghr/polarplotter/blob/main/stl/2x_Schraube.stl)
 
 - Die Schraube passt genau in den Gewindeeinsatz und befestigt die Klemme und Motorhalterung auf einem Brett.
-- Der Kopf ist so konzipiert, dass sie ohne Werkzeug verschraubt werden kann.
+- Der Kopf ist so konzipiert, dass er ohne Werkzeug verschraubt werden kann.

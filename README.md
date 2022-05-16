@@ -1,10 +1,12 @@
 # Polar Plotter
 Ein Projekt der Hochschule Pforzheim.
 
-[Benötigte Komponenten](#benötigte-komponenten)<br>
-[Installation Polargraph Software](#installation-polargraph-software)<br>
-[Aufbau des Plotters](#aufbau-des-plotters)<br>
-[Einstellungen in der Software](#einstellungen-in-der-software)<br>
+- [Benötigte Komponenten](#benötigte-komponenten)<br>
+  - [Zukaufteile](#zukaufteile)<br>
+  - [3D-Druck Teile](#3d-druck-teile)<br>
+- [Installation Polargraph Software](#installation-polargraph-software)<br>
+- [Aufbau des Plotters](#aufbau-des-plotters)<br>
+- [Einstellungen in der Software](#einstellungen-in-der-software)<br>
 
 ## Benötigte Komponenten
 
@@ -83,7 +85,7 @@ Dateien aus `/stl` auf dem 3D Drucker herstellen. Die Komponenten und deren Funk
 
 - Processing starten und wieder schließen.
 
-- Im schon heruntergeladenen Verzeichnis (polargraph.2017-11-01) den Inhalt des Ordners `Polargraph.2017-11-01\processing-source\Processing libraries` nach `C:\Users\"PCNAME"\Documents\Processing\libraries` kopieren. ![image](https://user-images.githubusercontent.com/58829180/168473290-ab935f19-e45b-4012-8ca4-7e088a439ae2.png)
+- Im bereits heruntergeladenen Verzeichnis (polargraph.2017-11-01) den Inhalt des Ordners `Polargraph.2017-11-01\processing-source\Processing libraries` nach `C:\Users\"PCNAME"\Documents\Processing\libraries` kopieren. ![image](https://user-images.githubusercontent.com/58829180/168473290-ab935f19-e45b-4012-8ca4-7e088a439ae2.png)
 
 - Anschließend den gesamten Ordner `Polargraph 2017-11-01\processing-source\polargraphcontroller` in den Processing Sketchbook Ordner (`C:\Users\"PCNAME"\Documents\Processing`) kopieren.
 
@@ -96,7 +98,7 @@ Dateien aus `/stl` auf dem 3D Drucker herstellen. Die Komponenten und deren Funk
 - Zusammenbau der beiden Motorhalterungen aus den 3D-Druckteilen, jeweils 3 Schrauben(2st M3x15, 1st M3x18) und 3 Muttern.
 ![image](https://user-images.githubusercontent.com/58829180/168479281-f0360503-3d68-4132-b768-b2df2f2ae6e7.png)
  
-- Festschrauben der Motoren an der Halterung und Befestigung am Zeichenbrett und Anbringung der Zahnräder.
+- Festschrauben der Motoren an der Halterung, Befestigung am Zeichenbrett und Anbringung der Zahnräder.
 ![20220516_133949](https://user-images.githubusercontent.com/58829180/168584952-07df5d0b-eab8-429c-a801-57df12c25073.jpg)
 
 - Anbringung des Motorshields auf dem Arduino und Vorbereiten der 12 V Stromversorgung.
@@ -145,7 +147,7 @@ Einstellungen für die Abmessungen des Zeichenbretts und des Zeichenblatts sowie
 | MOTOR MAX SPEED | 1000 | Maximalgeschwindigkeit des Motors |
 | MOTOR MAX ACCELERATION | 400 | Maximalbeschleunigung des Motors |
 
-- Außerdem muss der `SERIAL PORT...` eingesetellt werden. Ist die Verbindung erfolgreich erscheint in grün `Polargraph READY! (Uno)`
+- Außerdem muss der `SERIAL PORT...` eingesetellt werden. Ist die Verbindung erfolgreich, erscheint in grün `Polargraph READY! (Uno)`
 
 ![image](https://user-images.githubusercontent.com/58829180/168608580-2f47b184-98dc-4942-b489-eff853cd5f46.png)
 
@@ -158,7 +160,7 @@ Einstellungen die das Zeichenobjekt betreffen. Über Tab INPUT.
 
 - Durch Klicken auf den Button `LOAD IMAGE FILE` kann eine Bilddatei ausgewählt und auf dem Brett positioniert werden. Über `RESIZE IMAGE` und `MOVE IMAGE` kann die Größe und Postition noch verändert werden.
 
-- Es kann das ein Bild Shattiert gezeichnet werden, dafür `INPUT -> RENDER PIXELS`. Alternativ kann die Kontur eines Vektors oder Bilds gezeichnet werden, dafür `TRACE -> CAPUTER`, anschließend `DRAW CAPTURE` um den Code zu generieren.
+- Es gibt die Möglichkeit ein Bild schattiert zu zeichnen, dafür `INPUT -> RENDER PIXELS`. Alternativ kann die Kontur eines Vektors oder Bilds gezeichnet werden, dafür `TRACE -> CAPUTER`, anschließend `DRAW CAPTURE` um den Code zu generieren.
 
 - Durch klicken auf `QUEUE PAUSED` wird der gesendete Code ausgeführt.
 
