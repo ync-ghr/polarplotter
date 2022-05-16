@@ -10,23 +10,27 @@
 [Motorhalterung](#motorhalterung)<br>
 [Schraube](#schraube)<br>
 
-## Deckel
+Über den Link in der jeweiligen Überschrift erfolgt eine Weiterleitung zum 3D-Modell.
 
-<script src="https://embed.github.com/view/3d/skalnik/secret-bear-clip/master/stl/clip.stl"></script>
+## [Deckel](https://github.com/ync-ghr/polarplotter/blob/main/stl/1x_Deckel.stl)
 
-## Gehäuse
+- Der Deckel dient als Abdeckung und kann über die beiden Bohrungen mit dem Gehäuse verschraubt werden. 
 
-## Gewichthalterung
+## [Gehäuse](https://github.com/ync-ghr/polarplotter/blob/main/stl/1x_Geh%C3%A4use.stl)
 
-## Gondel
+- Das Gehäuse 
 
-## GegenGewichthalterung
+## [Gewichthalterung](https://github.com/ync-ghr/polarplotter/blob/main/stl/1x_Gewichthalterung.stl)
 
-## Gewindeeinsatz
+## [Gondel](https://github.com/ync-ghr/polarplotter/blob/main/stl/1x_Gondel.stl)
 
-## Klemme
+## [GegenGewichthalterung](https://github.com/ync-ghr/polarplotter/blob/main/stl/2x_GegenGewichthalterung.stl)
 
-## Motorhalterung
+## [Gewindeeinsatz](https://github.com/ync-ghr/polarplotter/blob/main/stl/2x_Gewindeeinsatz.stl)
 
-## Schraube
+## [Klemme](https://github.com/ync-ghr/polarplotter/blob/main/stl/2x_Klemme.stl)
+
+## [Motorhalterung](https://github.com/ync-ghr/polarplotter/blob/main/stl/2x_Motorhalterung.stl)
+
+## [Schraube](https://github.com/ync-ghr/polarplotter/blob/main/stl/2x_Schraube.stl)
 
