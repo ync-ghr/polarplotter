@@ -21,7 +21,7 @@
 ## [Gehäuse](https://github.com/ync-ghr/polarplotter/blob/main/stl/1x_Geh%C3%A4use.stl)
 
 - Das Gehäuse bietet die Möglichkeit den Arduino darin fest zu verschrauben. Durch 3 M2x5 Schrauben kann durch die Bohrungen im Arduino eine Verbindung hergestellt werden.
-- In die Bohrung kann die Klinkenbuckse des Netzteils gesetzt und durch Anziehen des Rings befestigt werden.
+- In die Bohrung kann die Klinkenbuchse des Netzteils gesetzt und durch Anziehen des Rings befestigt werden.
 - Durch das Einsetzen von Ruthex Gewinden wird das Verschrauben des Deckels ermöglicht.
 - Es gibt eine Aussparung für den USB-Port des Arduinos.
 - Die Stecker der Motoren können optional mithilfe der Verbinder (siehe Bild) mit dem Gehäuse verschraubt werden. 
