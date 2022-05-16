@@ -9,7 +9,6 @@ Ein Projekt der Hochschule Pforzheim.
 - Bauteile und deren Funktion/Herstellung
 - Handhabung des Plotters
 
-
 ## Benötigte Komponenten
 
 ![image](https://user-images.githubusercontent.com/58829180/168477973-95d0accc-3933-4d4f-9964-99fa80b72a3a.jpg)
@@ -41,10 +40,9 @@ Ein Projekt der Hochschule Pforzheim.
 
 ### 3D-Druck Teile
 
-Dateien aus `/stl` auf dem 3D Drucker herstellen.
+Dateien aus `/stl` auf dem 3D Drucker herstellen. Die Komponenten und deren Funktionsweise werden [hier](stl\parts-explained.md) erläutert.
 
 ![image](https://user-images.githubusercontent.com/58829180/168470991-aa8e7993-4bd5-4211-93ab-83f221624614.png) 
-
 
 
 ## Installation Polargraph Software
