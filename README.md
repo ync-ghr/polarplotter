@@ -1,7 +1,10 @@
 # Polar Plotter
 Ein Projekt der Hochschule Pforzheim.
 
-
+[Benötigte Komponenten](#benötigte-komponenten)<br>
+[Installation Polargraph Software](#installation-polargraph-software)<br>
+[Aufbau des Plotters](#aufbau-des-plotters)<br>
+[Einstellungen in der Software](#einstellungen-in-der-software)<br>
 
 - Bauteile und deren Funktion/Herstellung
 - Handhabung des Plotters
