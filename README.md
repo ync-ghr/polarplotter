@@ -1,4 +1,4 @@
-# Polar Plotter
+﻿# Polar Plotter
 Ein Projekt der Hochschule Pforzheim.
 
 - [Benötigte Komponenten](#benötigte-komponenten)<br>
@@ -39,7 +39,7 @@ Ein Projekt der Hochschule Pforzheim.
 
 ### 3D-Druck Teile
 
-Dateien aus `/stl` auf dem 3D Drucker herstellen. Die Komponenten und deren Funktionsweise werden [hier](stl\README.md) erläutert.
+Dateien aus `/stl` auf dem 3D-Drucker herstellen. Die Komponenten und deren Funktionsweise werden [hier](stl\README.md) erläutert.
 
 ![image](https://user-images.githubusercontent.com/58829180/168470991-aa8e7993-4bd5-4211-93ab-83f221624614.png) 
 
@@ -79,7 +79,7 @@ Dateien aus `/stl` auf dem 3D Drucker herstellen. Die Komponenten und deren Funk
 
 - Setzen des angeschlossenen Ports: `Tools -> Port -> COMx`
 
-- Auf den Pfeil klicken, um den Code auf den Arduino zu laden. Warten bis Hochladen abgeschlossen ist.
+- Auf den Pfeil klicken, um den Code auf den Arduino zu laden. Warten, bis Hochladen abgeschlossen ist.
 
 - Herunterladen und installieren von Processing v2.2.1: https://processing.org/download?processing
 
@@ -91,11 +91,11 @@ Dateien aus `/stl` auf dem 3D Drucker herstellen. Die Komponenten und deren Funk
 
 - Processing erneut starten und `File -> Sketchbook -> polargraphcontroller` öffnen.
 
-- Run drücken um den Controller zu starten.
+- Run drücken, um den Controller zu starten.
 
 ## Aufbau des Plotters
 
-- Zusammenbau der beiden Motorhalterungen aus den 3D-Druckteilen, jeweils 3 Schrauben(2st M3x15, 1st M3x18) und 3 Muttern.
+- Zusammenbau der beiden Motorhalterungen aus den 3D-Druckteilen, jeweils 3 Schrauben (2st M3x15, 1st M3x18) und 3 Muttern.
 ![image](https://user-images.githubusercontent.com/58829180/168479281-f0360503-3d68-4132-b768-b2df2f2ae6e7.png)
  
 - Festschrauben der Motoren an der Halterung, Befestigung am Zeichenbrett und Anbringung der Zahnräder.
@@ -104,7 +104,7 @@ Dateien aus `/stl` auf dem 3D Drucker herstellen. Die Komponenten und deren Funk
 - Anbringung des Motorshields auf dem Arduino und Vorbereiten der 12 V Stromversorgung.
 ![20220516_111948](https://user-images.githubusercontent.com/58829180/168561048-7b88ac8f-c3d1-4d6f-aeaf-cb69f87a328b.jpg)
 
-- Einlegen der Gewichte in die Gewichthalterungen und Befestigung des Gummiriemens durch verkanten der Zähne. Riemen soll einmal gespielgelt angebracht werden (siehe Bild).
+- Einlegen der Gewichte in die Gewichthalterungen und Befestigung des Gummiriemens durch verkanten der Zähne. Riemen soll einmal gespiegelt angebracht werden (siehe Bild).
 ![20220516_115116](https://user-images.githubusercontent.com/58829180/168585308-1fa78251-2e79-4927-bcbc-f364e5400874.jpg)
 
 - Anbringen des Servomotors und der Gewichthalterung an der Gondel. Befestigung des Gummiriemens durch verkanten. Verlängerungskabel für den Servomotor verbinden. Einschmelzen des Gewindes in die Bohrung.
@@ -141,13 +141,13 @@ Einstellungen für die Abmessungen des Zeichenbretts und des Zeichenblatts sowie
 | PAGE POS X        | - | X-Position des Blatts |
 | PAGE POS Y        | - | Y-Position des Blatts |
 | HOME POS X        | - | X-Position des Homepunkts |
-| HOME POS Y        | - | Y-Postition des Homepunkts |
-| PEN UP POSTION    | - | Winkel des Servos für angehobeben Stift |
+| HOME POS Y        | - | Y-Position des Homepunkts |
+| PEN UP POSTION    | - | Winkel des Servos für angehobenen Stift |
 | PEN DOWN POSITION | - | Winkel des Servos für abgesetzten Stift |
 | MOTOR MAX SPEED | 1000 | Maximalgeschwindigkeit des Motors |
 | MOTOR MAX ACCELERATION | 400 | Maximalbeschleunigung des Motors |
 
-- Außerdem muss der `SERIAL PORT...` eingesetellt werden. Ist die Verbindung erfolgreich, erscheint in grün `Polargraph READY! (Uno)`
+- Außerdem muss der `SERIAL PORT...` eingestellt werden. Ist die Verbindung erfolgreich, erscheint in grün `Polargraph READY! (Uno)`
 
 ![image](https://user-images.githubusercontent.com/58829180/168608580-2f47b184-98dc-4942-b489-eff853cd5f46.png)
 
@@ -158,7 +158,7 @@ Einstellungen die das Zeichenobjekt betreffen. Über Tab INPUT.
 
 - Zuerst muss die Gondel manuell so eingehängt werden, dass sich der Stift direkt über dem Homepunkt befindet. Anschließend kann über den Button `SET HOME` dieser Punkt abgespeichert werden.
 
-- Durch Klicken auf den Button `LOAD IMAGE FILE` kann eine Bilddatei ausgewählt und auf dem Brett positioniert werden. Über `RESIZE IMAGE` und `MOVE IMAGE` kann die Größe und Postition noch verändert werden.
+- Durch Klicken auf den Button `LOAD IMAGE FILE` kann eine Bilddatei ausgewählt und auf dem Brett positioniert werden. Über `RESIZE IMAGE` und `MOVE IMAGE` kann die Größe und Position noch verändert werden.
 
 - Es gibt die Möglichkeit ein Bild schattiert zu zeichnen, dafür `INPUT -> RENDER PIXELS`. Alternativ kann die Kontur eines Vektors oder Bilds gezeichnet werden, dafür `TRACE -> CAPUTER`, anschließend `DRAW CAPTURE` um den Code zu generieren.
 
@@ -167,6 +167,7 @@ Einstellungen die das Zeichenobjekt betreffen. Über Tab INPUT.
 ![image](https://user-images.githubusercontent.com/58829180/168608426-a97e648c-b535-4cce-a61b-de0415ff80a7.png)
 
 ![image](https://user-images.githubusercontent.com/58829180/168610424-4e05260a-833f-490b-8924-52ea2e9e0b75.png)
+
 
 
 

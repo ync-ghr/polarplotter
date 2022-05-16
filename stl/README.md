@@ -1,4 +1,4 @@
-# Beschreibung der Komponenten
+﻿# Beschreibung der Komponenten
 
 [Deckel](#deckel)<br>
 [Gehäuse](#gehäuse)<br>
@@ -20,7 +20,7 @@
 
 ## [Gehäuse](https://github.com/ync-ghr/polarplotter/blob/main/stl/1x_Geh%C3%A4use.stl)
 
-- Das Gehäuse bietet die Möglichkeit den Arduino darin fest zu verschrauben. Durch 3 M2x5 Schrauben kann durch die Bohrungen im Arduino eine Verbindung hergesetellt werden.
+- Das Gehäuse bietet die Möglichkeit den Arduino darin fest zu verschrauben. Durch 3 M2x5 Schrauben kann durch die Bohrungen im Arduino eine Verbindung hergestellt werden.
 - In die Bohrung kann die Klinkenbuckse des Netzteils gesetzt und durch Anziehen des Rings befestigt werden.
 - Durch das Einsetzen von Ruthex Gewinden wird das Verschrauben des Deckels ermöglicht.
 - Es gibt eine Aussparung für den USB-Port des Arduinos.
@@ -35,7 +35,7 @@
 
 ## [Gondel](https://github.com/ync-ghr/polarplotter/blob/main/stl/1x_Gondel.stl)
 
-- Die Gondel hat einen Platz um den Servomotor zu befestigen. Dieser kann außerdem verschraubt werden.
+- Die Gondel hat einen Platz, um den Servomotor zu befestigen. Dieser kann außerdem verschraubt werden.
 - Der Zylinder in der Mitte ist dazu gedacht einen Stift hineinzustecken und durch eine Schraube zu fixieren.
 - Die Riemen müssen um den kleinen Zylinder gelegt werden und werden durch Verkanten der Zähne und Fixieren in der Spalte befestigt (siehe Bild).
 ![20220516_165418](https://user-images.githubusercontent.com/58829180/168621887-7a7ef089-f347-4402-8e4d-bb12416912ba.jpg)
@@ -57,11 +57,11 @@
 ## [Klemme](https://github.com/ync-ghr/polarplotter/blob/main/stl/2x_Klemme.stl)
 
 - Die Klemme wird über ein Zeichenbrett/Flipchart/Metaplanwand gesetzt und kann dort ganz einfach mit der ebenfalls gedruckten Schraube befestigt werden.
-- Auf der Oberseite ist eine quadratische Aussparung um dort das Gegenstück, welches sich auf der Unterseite der Motorhalterung befindet, einzusetzten. Dadurch wird ein verdrehen der beiden Bauteile zueinander verhindert.
+- Auf der Oberseite ist eine quadratische Aussparung um dort das Gegenstück, welches sich auf der Unterseite der Motorhalterung befindet, einzusetzen. Dadurch wird ein Verdrehen der beiden Bauteile zueinander verhindert.
 
 ## [Motorhalterung](https://github.com/ync-ghr/polarplotter/blob/main/stl/2x_Motorhalterung.stl)
 
-- Die Motorhalterung hat eine Bohrung durch welche die Welle des Schrittmotors passt.
+- Die Motorhalterung hat eine Bohrung, durch welche die Welle des Schrittmotors passt.
 - Außerdem kann dieser durch 4 Bohrungen mit der Halterung verschraubt werden.
 - Durch die Seitenwände wird die Positionierung vereinfacht.
 - Auf der Unterseite befindet sich die schon angesprochene Erhöhung.
@@ -70,3 +70,4 @@
 
 - Die Schraube passt genau in den Gewindeeinsatz und befestigt die Klemme und Motorhalterung auf einem Brett.
 - Der Kopf ist so konzipiert, dass er ohne Werkzeug verschraubt werden kann.
+
