@@ -50,8 +50,7 @@ Dateien aus /stl auf dem 3D Drucker herstellen.
 
 - Dieses Verzeichnis (polargraph.2017-11-01.zip)entpacken und öffnen. Darin ist ein Ordner `\arduino-source\polargraph-server-a1` enhalten. Diesen in den Arduino Ordner verschieben (`C:\Users\"PCNAME"\Documents\Arduino`). ![image](https://user-images.githubusercontent.com/58829180/168472281-1d77a318-3a13-466e-a567-8d2137aa97d8.png)
 
-- Den Inhalt des Ordners `\arduino-source\libraries` in den Ordner `C:\Users\"PCNAME"\Documents\Arduino\libraries` verschieben.<br>
-<img src="https://user-images.githubusercontent.com/58829180/168472653-08670873-b451-4253-8424-7977ee3ee37a.png" alt="drawing" height="100"/>
+- Den Inhalt des Ordners `\arduino-source\libraries` in den Ordner `C:\Users\"PCNAME"\Documents\Arduino\libraries` verschieben. <img src="https://user-images.githubusercontent.com/58829180/168472653-08670873-b451-4253-8424-7977ee3ee37a.png" height="200"/>
 
 - Anschließend Arduino IDE starten.
 
