@@ -36,7 +36,7 @@ Ein Projekt der Hochschule Pforzheim.
 - 12 V Netzteil
 
 - Schrauben und Muttern:
-  - 
+  - 3x Rutex Gewinde: https://www.ruthex.de/products/ruthex-gewindeeinsatz-m3-100-stuck-rx-m3x5-7-messing-gewindebuchsen
 
 ### 3D-Druck Teile
 
