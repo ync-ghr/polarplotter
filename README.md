@@ -11,7 +11,7 @@ Ein Projekt der Hochschule Pforzheim.
 ## Benötigte Komponenten
 
 ![image](https://user-images.githubusercontent.com/58829180/168477973-95d0accc-3933-4d4f-9964-99fa80b72a3a.jpg)
-![](bilder%5Calle-komponenten.jpg)
+![](bilder/alle-komponenten.jpg)
 
 ### Zukaufteile
 
@@ -49,7 +49,7 @@ Ein Projekt der Hochschule Pforzheim.
 STL-Dateien aus `/bauteile` auf dem 3D-Drucker herstellen. Die Komponenten und deren Funktionsweise werden [hier](stl\README.md) erläutert.
 
 ![image](https://user-images.githubusercontent.com/58829180/168470991-aa8e7993-4bd5-4211-93ab-83f221624614.png) 
-![](bilder%5Canordnung-auf-3ddrucker.png)
+![](bilder/anordnung-auf-3ddrucker.png)
 
 
 ## Installation Polargraph Software
