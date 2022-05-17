@@ -62,7 +62,7 @@ STL-Dateien aus `/bauteile` auf dem 3D-Drucker herstellen. Die Komponenten und d
 
 - Den Inhalt des Ordners `\arduino-source\libraries` in den Ordner `C:\Users\"PCNAME"\Documents\Arduino\libraries` verschieben. 
 ![image](https://user-images.githubusercontent.com/58829180/168472653-08670873-b451-4253-8424-7977ee3ee37a.png)
-![](bilder%5Cordner1.png)
+![](bilder/ordner1.png)
 
 - Anschließend Arduino IDE starten.
 
@@ -96,7 +96,7 @@ STL-Dateien aus `/bauteile` auf dem 3D-Drucker herstellen. Die Komponenten und d
 
 - Im bereits heruntergeladenen Verzeichnis (polargraph.2017-11-01) den Inhalt des Ordners `Polargraph.2017-11-01\processing-source\Processing libraries` nach `C:\Users\"PCNAME"\Documents\Processing\libraries` kopieren.
 ![image](https://user-images.githubusercontent.com/58829180/168473290-ab935f19-e45b-4012-8ca4-7e088a439ae2.png)
-![](bilder%5Cordner2.png)
+![](bilder/ordner2.png)
 
 - Anschließend den gesamten Ordner `Polargraph 2017-11-01\processing-source\polargraphcontroller` in den Processing Sketchbook Ordner (`C:\Users\"PCNAME"\Documents\Processing`) kopieren.
 
@@ -108,32 +108,32 @@ STL-Dateien aus `/bauteile` auf dem 3D-Drucker herstellen. Die Komponenten und d
 
 - Zusammenbau der beiden Motorhalterungen aus den 3D-Druckteilen, jeweils 3 Schrauben (2st M3x15, 1st M3x18) und 3 Muttern.
 ![image](https://user-images.githubusercontent.com/58829180/168479281-f0360503-3d68-4132-b768-b2df2f2ae6e7.png)
-![](bilder%5Czusammenbau-klemme.png)
+![](bilder/zusammenbau-klemme.png)
  
 - Festschrauben der Motoren an der Halterung, Befestigung am Zeichenbrett und Anbringung der Zahnräder.
 ![20220516_133949](https://user-images.githubusercontent.com/58829180/168584952-07df5d0b-eab8-429c-a801-57df12c25073.jpg)
-![](bilder%5Caufbau-motoren.jpg)
+![](bilder/aufbau-motoren.jpg)
 
 - Anbringen des Motorshields auf dem Arduino und löten der Pins. Anschließend vorbereiten der 12 V Stromversorgung.
 ![20220516_111948](https://user-images.githubusercontent.com/58829180/168561048-7b88ac8f-c3d1-4d6f-aeaf-cb69f87a328b.jpg)
-![](bilder%5Caufbau-arduino.jpg)
+![](bilder/aufbau-arduino.jpg)
 
 - Einlegen der Gewichte in die Halterungen und Befestigung des Gummiriemens durch Verkanten der Zähne. Riemen soll einmal gespiegelt angebracht werden (siehe Bild).
 ![20220516_115116](https://user-images.githubusercontent.com/58829180/168585308-1fa78251-2e79-4927-bcbc-f364e5400874.jpg)
-![](bilder%5Cgewichthalterungen.jpg)
+![](bilder/gewichthalterungen.jpg)
 
 - Anbringen des Servomotors und der Gewichthalterung an der Gondel. Befestigung des Gummiriemens durch Verkanten. Verlängerungskabel für den Servomotor verbinden. Einschmelzen des Gewindes in die Bohrung.
 ![Bild6](https://user-images.githubusercontent.com/58829180/168586453-83efd087-901b-49cb-b8b0-ed5485673121.jpg)
-![](bilder%5Czusammenbau-gondel.jpg)
+![](bilder/zusammenbau-gondel.jpg)
 
 
 - Aufsetzen der Konstruktion über die Zahnräder und Kabel auf die Rückseite führen.
 ![20220516_135158](https://user-images.githubusercontent.com/58829180/168586784-39b353d6-2930-4fba-8ed8-d5f71846f19d.jpg)
-![](bilder%5Ceinh%C3%A4ngen-gondel.jpg)
+![](bilder/einh%C3%A4ngen-gondel.jpg)
 
 - Verkabelung der beiden Schrittmotoren an die Klemmen (Blau/Grün ein Coil, Gelb/Rot ein Coil) und aufstecken des Servosteckers an die Servo 2 Pins. Herstellen der 12 V Stromversorgung und der USB-Verbindung mit einem Windows-PC.
 ![image](https://user-images.githubusercontent.com/58829180/168578243-2e42a344-23a8-4350-8ab4-d5836b6ee91a.png)
-![](bilder%5Cverkabelung-arduino.png)
+![](bilder/verkabelung-arduino.png)
 
 - Anbringung eines Zeichenblattes auf dem Zeichenbrett.
 
@@ -166,7 +166,7 @@ Einstellungen für die Abmessungen des Zeichenbretts und des Zeichenblatts sowie
 - Außerdem muss der `SERIAL PORT...` eingestellt werden. Ist die Verbindung erfolgreich, erscheint in grün `Polargraph READY! (Uno)`
 
 ![image](https://user-images.githubusercontent.com/58829180/168608580-2f47b184-98dc-4942-b489-eff853cd5f46.png)
-![](bilder%5Ccontroller-setup.png)
+![](bilder/controller-setup.png)
 
 
 ### INPUT
@@ -182,10 +182,10 @@ Einstellungen, die das Zeichenobjekt betreffen. Über Tab INPUT.
 - Durch klicken auf `QUEUE PAUSED` wird der gesendete Code ausgeführt.
 
 ![image](https://user-images.githubusercontent.com/58829180/168608426-a97e648c-b535-4cce-a61b-de0415ff80a7.png)
-![](bilder%5Ccontroller-input.png)
+![](bilder/controller-input.png)
 
 ![image](https://user-images.githubusercontent.com/58829180/168610424-4e05260a-833f-490b-8924-52ea2e9e0b75.png)
-![](bilder%5Ccontroller-trace.png)
+![](bilder/controller-trace.png)
 
 
 
