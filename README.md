@@ -45,7 +45,7 @@ Ein Projekt der Hochschule Pforzheim.
 
 ### 3D-Druck Teile
 
-Dateien aus `/stl` auf dem 3D-Drucker herstellen. Die Komponenten und deren Funktionsweise werden [hier](stl\README.md) erläutert.
+STL-Dateien aus `/bauteile` auf dem 3D-Drucker herstellen. Die Komponenten und deren Funktionsweise werden [hier](stl\README.md) erläutert.
 
 ![image](https://user-images.githubusercontent.com/58829180/168470991-aa8e7993-4bd5-4211-93ab-83f221624614.png) 
 
