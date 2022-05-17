@@ -10,7 +10,6 @@ Ein Projekt der Hochschule Pforzheim.
 
 ## Benötigte Komponenten
 
-![image](https://user-images.githubusercontent.com/58829180/168477973-95d0accc-3933-4d4f-9964-99fa80b72a3a.jpg)
 ![](bilder/alle-komponenten.jpg)
 
 ### Zukaufteile
@@ -21,6 +20,8 @@ Ein Projekt der Hochschule Pforzheim.
 - Adafruit Motor Shiled v2: https://www.adafruit.com/product/1438
 
 - Servomotor: https://www.amazon.de/dp/B07CYZK379?ref_=cm_sw_r_cp_ud_dp_AW2FQ5ZJ4909N2ZZ1QXP
+  - 5 V
+  - 22,2 x 11,8 x 31 mm
 
 - Schrittmotoren: https://www.adafruit.com/product/324#technical-details
   - 200 steps per revolution
@@ -28,7 +29,10 @@ Ein Projekt der Hochschule Pforzheim.
   - 12 V
   - 350 mA
 
-- Zahnriemen und Zahnräder: https://www.amazon.de/dp/B07QH94G71?ref_=cm_sw_r_cp_ud_dp_NBP2886NY2H1YNJAXYJZ
+- Zahnriemen und Zahnräder aus 3D-Drucker Bereich: https://www.amazon.de/dp/B07QH94G71?ref_=cm_sw_r_cp_ud_dp_NBP2886NY2H1YNJAXYJZ
+  - GT2 2 mm
+  - Rastermaß 6 mm
+  - 5 m Länge
 
 - Gewichte: https://www.amazon.de/dp/B08F2H4TB8?ref_=cm_sw_r_cp_ud_dp_EE6H5DKYBR2R5X1NX4WT 
   - 100 g + 2 x 60 g
@@ -48,7 +52,6 @@ Ein Projekt der Hochschule Pforzheim.
 
 STL-Dateien aus `/bauteile` auf dem 3D-Drucker herstellen. Die Komponenten und deren Funktionsweise werden [hier](stl\README.md) erläutert.
 
-![image](https://user-images.githubusercontent.com/58829180/168470991-aa8e7993-4bd5-4211-93ab-83f221624614.png) 
 ![](bilder/anordnung-auf-3ddrucker.png)
 
 
@@ -61,7 +64,6 @@ STL-Dateien aus `/bauteile` auf dem 3D-Drucker herstellen. Die Komponenten und d
 - Dieses Verzeichnis (polargraph.2017-11-01.zip) entpacken und öffnen. Darin ist ein Ordner `\arduino-source\polargraph-server-a1` enthalten. Diesen in den Arduino Ordner verschieben (`C:\Users\"PCNAME"\Documents\Arduino`).
 
 - Den Inhalt des Ordners `\arduino-source\libraries` in den Ordner `C:\Users\"PCNAME"\Documents\Arduino\libraries` verschieben. 
-![image](https://user-images.githubusercontent.com/58829180/168472653-08670873-b451-4253-8424-7977ee3ee37a.png)
 ![](bilder/ordner1.png)
 
 - Anschließend Arduino IDE starten.
@@ -95,7 +97,6 @@ STL-Dateien aus `/bauteile` auf dem 3D-Drucker herstellen. Die Komponenten und d
 - Processing starten und wieder schließen.
 
 - Im bereits heruntergeladenen Verzeichnis (polargraph.2017-11-01) den Inhalt des Ordners `Polargraph.2017-11-01\processing-source\Processing libraries` nach `C:\Users\"PCNAME"\Documents\Processing\libraries` kopieren.
-![image](https://user-images.githubusercontent.com/58829180/168473290-ab935f19-e45b-4012-8ca4-7e088a439ae2.png)
 ![](bilder/ordner2.png)
 
 - Anschließend den gesamten Ordner `Polargraph 2017-11-01\processing-source\polargraphcontroller` in den Processing Sketchbook Ordner (`C:\Users\"PCNAME"\Documents\Processing`) kopieren.
@@ -107,32 +108,25 @@ STL-Dateien aus `/bauteile` auf dem 3D-Drucker herstellen. Die Komponenten und d
 ## Aufbau des Plotters
 
 - Zusammenbau der beiden Motorhalterungen aus den 3D-Druckteilen, jeweils 3 Schrauben (2st M3x15, 1st M3x18) und 3 Muttern.
-![image](https://user-images.githubusercontent.com/58829180/168479281-f0360503-3d68-4132-b768-b2df2f2ae6e7.png)
 ![](bilder/zusammenbau-klemme.png)
  
 - Festschrauben der Motoren an der Halterung, Befestigung am Zeichenbrett und Anbringung der Zahnräder.
-![20220516_133949](https://user-images.githubusercontent.com/58829180/168584952-07df5d0b-eab8-429c-a801-57df12c25073.jpg)
 ![](bilder/aufbau-motoren.jpg)
 
 - Anbringen des Motorshields auf dem Arduino und löten der Pins. Anschließend vorbereiten der 12 V Stromversorgung.
-![20220516_111948](https://user-images.githubusercontent.com/58829180/168561048-7b88ac8f-c3d1-4d6f-aeaf-cb69f87a328b.jpg)
 ![](bilder/aufbau-arduino.jpg)
 
 - Einlegen der Gewichte in die Halterungen und Befestigung des Gummiriemens durch Verkanten der Zähne. Riemen soll einmal gespiegelt angebracht werden (siehe Bild).
-![20220516_115116](https://user-images.githubusercontent.com/58829180/168585308-1fa78251-2e79-4927-bcbc-f364e5400874.jpg)
 ![](bilder/gewichthalterungen.jpg)
 
 - Anbringen des Servomotors und der Gewichthalterung an der Gondel. Befestigung des Gummiriemens durch Verkanten. Verlängerungskabel für den Servomotor verbinden. Einschmelzen des Gewindes in die Bohrung.
-![Bild6](https://user-images.githubusercontent.com/58829180/168586453-83efd087-901b-49cb-b8b0-ed5485673121.jpg)
 ![](bilder/zusammenbau-gondel.jpg)
 
 
 - Aufsetzen der Konstruktion über die Zahnräder und Kabel auf die Rückseite führen.
-![20220516_135158](https://user-images.githubusercontent.com/58829180/168586784-39b353d6-2930-4fba-8ed8-d5f71846f19d.jpg)
 ![](bilder/einh%C3%A4ngen-gondel.jpg)
 
 - Verkabelung der beiden Schrittmotoren an die Klemmen (Blau/Grün ein Coil, Gelb/Rot ein Coil) und aufstecken des Servosteckers an die Servo 2 Pins. Herstellen der 12 V Stromversorgung und der USB-Verbindung mit einem Windows-PC.
-![image](https://user-images.githubusercontent.com/58829180/168578243-2e42a344-23a8-4350-8ab4-d5836b6ee91a.png)
 ![](bilder/verkabelung-arduino.png)
 
 - Anbringung eines Zeichenblattes auf dem Zeichenbrett.
@@ -165,7 +159,6 @@ Einstellungen für die Abmessungen des Zeichenbretts und des Zeichenblatts sowie
 
 - Außerdem muss der `SERIAL PORT...` eingestellt werden. Ist die Verbindung erfolgreich, erscheint in grün `Polargraph READY! (Uno)`
 
-![image](https://user-images.githubusercontent.com/58829180/168608580-2f47b184-98dc-4942-b489-eff853cd5f46.png)
 ![](bilder/controller-setup.png)
 
 
@@ -181,10 +174,8 @@ Einstellungen, die das Zeichenobjekt betreffen. Über Tab INPUT.
 
 - Durch klicken auf `QUEUE PAUSED` wird der gesendete Code ausgeführt.
 
-![image](https://user-images.githubusercontent.com/58829180/168608426-a97e648c-b535-4cce-a61b-de0415ff80a7.png)
 ![](bilder/controller-input.png)
 
-![image](https://user-images.githubusercontent.com/58829180/168610424-4e05260a-833f-490b-8924-52ea2e9e0b75.png)
 ![](bilder/controller-trace.png)
 
 
