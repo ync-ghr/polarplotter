@@ -1,6 +1,8 @@
 ﻿# Polar Plotter
 Ein Projekt der Hochschule Pforzheim.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9DOyNeQ_HOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 - [Benötigte Komponenten](#benötigte-komponenten)<br>
   - [Zukaufteile](#zukaufteile)<br>
   - [3D-Druck Teile](#3d-druck-teile)<br>
@@ -66,7 +68,7 @@ STL-Dateien aus `/bauteile` auf dem 3D-Drucker herstellen. Die Komponenten und d
 - Den Inhalt des Ordners `\arduino-source\libraries` in den Ordner `C:\Users\"PCNAME"\Documents\Arduino\libraries` verschieben. 
 ![](bilder/ordner1.png)
 
-- Anschließend Arduino IDE starten.
+- Anschließend Arduino IDE starten und Arduino über USB mit dem PC verbinden.
 
 - `File -> Sketchbook -> polargraph_server_a1` auswählen und im Tab polargraph_server_a1 unter 1. den Controller auf MC_UNO einstellen. Unter 3. die verwendeten Motortreiber auswählen.
 
