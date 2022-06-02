@@ -1,7 +1,8 @@
 ﻿# Polar Plotter
 Ein Projekt der Hochschule Pforzheim.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9DOyNeQ_HOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![](https://i.imgur.com/4NbSzrO.png)](https://youtu.be/9DOyNeQ_HOg)
+
 
 - [Benötigte Komponenten](#benötigte-komponenten)<br>
   - [Zukaufteile](#zukaufteile)<br>
